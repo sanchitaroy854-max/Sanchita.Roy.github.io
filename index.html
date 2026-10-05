@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Premium Modern Portfolio | Creative Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Ambient Background Glows -->
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+  <div class="glow-orb orb-3"></div>
+
+  <!-- Header / Navigation -->
+  <header class="header">
+    <nav class="navbar">
+      <a href="#" class="brand-logo">
+        <span class="logo-symbol">&lt;/&gt;</span>
+        <span class="logo-text">DEV.STUDIO</span>
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Works</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-outline-glow">Let's Talk</a>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="hero-container">
+        
+        <!-- Status Pill -->
+        <div class="status-pill">
+          <span class="status-dot"></span>
+          <span>AVAILABLE FOR NEW PROJECTS & ROLES</span>
+        </div>
+
+        <!-- Hero Avatar with Rotating Radiant Border -->
+        <div class="hero-avatar-wrapper">
+          <div class="avatar-glow-ring"></div>
+          <div class="avatar-box">
+            <img src="avatar.png" alt="Profile" id="avatar-img" onerror="this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80'">
+          </div>
+          <div class="floating-badge badge-left">
+            <i class="fas fa-code"></i> Full Stack
+          </div>
+          <div class="floating-badge badge-right">
+            <i class="fas fa-layer-group"></i> UI/UX & Web
+          </div>
+        </div>
+
+        <h1 class="hero-main-title">
+          Hi, I'm <span class="gradient-text">Sanchita Roy</span>
+        </h1>
+
+        <p class="hero-role-text">
+          <span class="typing-prefix">&gt; </span><span id="typed-text">Building next-generation digital applications.</span>
+        </p>
+
+        <p class="hero-description">
+          A dedicated software creator focusing on modern UI design, performant backend architectures, and delightful interactive web experiences.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary-gradient">
+            <span>Explore Works</span>
+            <i class="fas fa-arrow-right"></i>
+          </a>
+          <a href="#contact" class="btn btn-glass">
+            <span>Get in Touch</span>
+          </a>
+        </div>
+
+        <!-- Social Icons -->
+        <div class="hero-socials">
+          <a href="https://github.com" target="_blank" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com" target="_blank" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://twitter.com" target="_blank" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="mailto:sanchitaroy854@gmail.com" class="social-icon" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Key Metrics / Stats Strip -->
+    <section class="stats-section">
+      <div class="stats-grid">
+        <div class="stat-card">
+          <h3 class="stat-number">15+</h3>
+          <p class="stat-label">Projects Completed</p>
+        </div>
+        <div class="stat-card">
+          <h3 class="stat-number">2+</h3>
+          <p class="stat-label">Years of Experience</p>
+        </div>
+        <div class="stat-card">
+          <h3 class="stat-number">99%</h3>
+          <p class="stat-label">Client Satisfaction</p>
+        </div>
+        <div class="stat-card">
+          <h3 class="stat-number">100%</h3>
+          <p class="stat-label">Dedicated Commitment</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section-container" id="about">
+      <div class="section-header">
+        <span class="section-tag">01 // DISCOVER</span>
+        <h2 class="section-title">About My Journey</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="glass-card about-main-card">
+          <h3 class="card-headline">Passionate About Solving Complex Problems</h3>
+          <p>
+            I love transforming complex concepts into clean, accessible, and high-performance applications. With a strong blend of technical curiosity and aesthetic instinct, I build digital experiences that feel intuitive and engaging.
+          </p>
+          <p>
+            Whether developing full-stack architectures, integrating intelligent web APIs, or refining user-facing micro-interactions, I continuously push the limits of modern web technologies.
+          </p>
+
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <i class="fas fa-bolt"></i>
+              <div>
+                <strong>High Performance</strong>
+                <p>Optimized for lightning-fast load times & responsiveness.</p>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <i class="fas fa-mobile-alt"></i>
+              <div>
+                <strong>Responsive First</strong>
+                <p>Designed flawlessly for mobiles, tablets, and wide monitors.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass-card terminal-card">
+          <div class="terminal-bar">
+            <div class="terminal-dots">
+              <span class="dot dot-red"></span>
+              <span class="dot dot-yellow"></span>
+              <span class="dot dot-green"></span>
+            </div>
+            <span class="terminal-title">profile.json</span>
+          </div>
+          <pre class="terminal-body"><code>{
+  <span class="key">"name"</span>: <span class="string">"Your Name"</span>,
+  <span class="key">"role"</span>: <span class="string">"Full Stack Developer"</span>,
+  <span class="key">"location"</span>: <span class="string">"Dhaka, Bangladesh"</span>,
+  <span class="key">"education"</span>: <span class="string">"B.Sc. in Computer Science"</span>,
+  <span class="key">"hobbies"</span>: [
+    <span class="string">"Music Production"</span>,
+    <span class="string">"Photography"</span>,
+    <span class="string">"Travel"</span>
+  ],
+  <span class="key">"status"</span>: <span class="string">"Ready to collaborate"</span>
+}</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills & Technologies -->
+    <section class="section-container" id="skills">
+      <div class="section-header">
+        <span class="section-tag">02 // CAPABILITIES</span>
+        <h2 class="section-title">Skills & Tech Stack</h2>
+      </div>
+
+      <div class="skills-categories-grid">
+        
+        <div class="glass-card skill-box">
+          <div class="skill-box-header">
+            <div class="skill-icon-wrap"><i class="fas fa-laptop-code"></i></div>
+            <h3>Frontend Architecture</h3>
+          </div>
+          <p class="skill-box-desc">Crafting modern, accessible, and reactive user interfaces.</p>
+          <div class="pill-group">
+            <span class="tech-pill">React.js</span>
+            <span class="tech-pill">Next.js</span>
+            <span class="tech-pill">JavaScript ES6+</span>
+            <span class="tech-pill">Tailwind CSS</span>
+            <span class="tech-pill">HTML5 & CSS3</span>
+            <span class="tech-pill">Three.js</span>
+          </div>
+        </div>
+
+        <div class="glass-card skill-box">
+          <div class="skill-box-header">
+            <div class="skill-icon-wrap"><i class="fas fa-server"></i></div>
+            <h3>Backend & Cloud</h3>
+          </div>
+          <p class="skill-box-desc">Building resilient APIs and distributed database systems.</p>
+          <div class="pill-group">
+            <span class="tech-pill">Node.js</span>
+            <span class="tech-pill">Express.js</span>
+            <span class="tech-pill">Python</span>
+            <span class="tech-pill">PostgreSQL</span>
+            <span class="tech-pill">MongoDB</span>
+            <span class="tech-pill">RESTful APIs</span>
+          </div>
+        </div>
+
+        <div class="glass-card skill-box">
+          <div class="skill-box-header">
+            <div class="skill-icon-wrap"><i class="fas fa-tools"></i></div>
+            <h3>Tools & Workflow</h3>
+          </div>
+          <p class="skill-box-desc">Industry-standard tools for collaboration and delivery.</p>
+          <div class="pill-group">
+            <span class="tech-pill">Git & GitHub</span>
+            <span class="tech-pill">VS Code</span>
+            <span class="tech-pill">Docker</span>
+            <span class="tech-pill">Figma</span>
+            <span class="tech-pill">Postman</span>
+            <span class="tech-pill">Vercel & Netlify</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section class="section-container" id="projects">
+      <div class="section-header">
+        <span class="section-tag">03 // SELECTED WORKS</span>
+        <h2 class="section-title">Featured Projects</h2>
+      </div>
+
+      <div class="projects-showcase-grid">
+
+        <!-- Project 1 -->
+        <div class="glass-card project-card">
+          <div class="project-banner">
+            <div class="project-overlay">
+              <span class="featured-badge">Featured</span>
+            </div>
+            <div class="mockup-screen">
+              <div class="mockup-header">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="mockup-content">
+                <i class="fas fa-chart-line"></i>
+                <p>AI Analytics Dashboard</p>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-name">HTML</h3>
+            <p class="project-summary">
+              An intelligent metrics platform offering real-time streaming charts, user event tracking, and machine learning predictive insights.
+            </p>
+            <div class="project-pills">
+              <span>React</span>
+              <span>Node.js</span>
+              <span>Chart.js</span>
+              <span>PostgreSQL</span>
+            </div>
+            <div class="project-footer">
+              <a href="#" class="btn-project"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+              <a href="https://github.com" target="_blank" class="btn-project btn-project-secondary"><i class="fab fa-github"></i> Source</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="glass-card project-card">
+          <div class="project-banner">
+            <div class="project-overlay">
+              <span class="featured-badge">Game</span>
+            </div>
+            <div class="mockup-screen">
+              <div class="mockup-header">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="mockup-content">
+                <i class="fas fa-gamepad"></i>
+                <p>3D Runner Universe</p>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-name">CSS</h3>
+            <p class="project-summary">
+              High-speed 3D web browser endless runner engine built with custom lighting models, procedural obstacles, and dynamic audio.
+            </p>
+            <div class="project-pills">
+              <span>Three.js</span>
+              <span>WebGL</span>
+              <span>JavaScript</span>
+              <span>Web Audio</span>
+            </div>
+            <div class="project-footer">
+              <a href="#" class="btn-project"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+              <a href="https://github.com" target="_blank" class="btn-project btn-project-secondary"><i class="fab fa-github"></i> Source</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="glass-card project-card">
+          <div class="project-banner">
+            <div class="project-overlay">
+              <span class="featured-badge">Web App</span>
+            </div>
+            <div class="mockup-screen">
+              <div class="mockup-header">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="mockup-content">
+                <i class="fas fa-cloud-sun-rain"></i>
+                <p>Atmospheric Weather Radar</p>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-name">Java Script</h3>
+            <p class="project-summary">
+              Interactive precipitation and wind vector mapping utilizing live satellite endpoints and geolocation forecasting algorithms.
+            </p>
+            <div class="project-pills">
+              <span>OpenWeather API</span>
+              <span>Leaflet.js</span>
+              <span>Tailwind CSS</span>
+            </div>
+            <div class="project-footer">
+              <a href="#" class="btn-project"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+              <a href="https://github.com" target="_blank" class="btn-project btn-project-secondary"><i class="fab fa-github"></i> Source</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Experience / Timeline -->
+    <section class="section-container" id="experience">
+      <div class="section-header">
+        <span class="section-tag">04 // CAREER PATH</span>
+        <h2 class="section-title">Experience & Journey</h2>
+      </div>
+
+      <div class="timeline-container">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass-card">
+            <span class="timeline-date">2024 - Present</span>
+            <h3 class="timeline-role">Frontend & UI Developer</h3>
+            <h4 class="timeline-company">Independent Studio / Freelance</h4>
+            <p>Designed and deployed high-performance responsive web products, landing pages, and interactive web tools for international clients.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass-card">
+            <span class="timeline-date">2022 - 2024</span>
+            <h3 class="timeline-role">Software Engineering & Academics</h3>
+            <h4 class="timeline-company">University Tech Community</h4>
+            <p>Built full-stack student portals, mentored junior coders in web development fundamentals, and led internal hackathon teams.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Contact Console -->
+    <section class="section-container" id="contact">
+      <div class="section-header">
+        <span class="section-tag">05 // INITIATE TRANSMISSION</span>
+        <h2 class="section-title">Get In Touch</h2>
+      </div>
+
+      <div class="contact-wrapper glass-card">
+        <div class="contact-sidebar">
+          <h3>Let's build something extraordinary together.</h3>
+          <p>Have an idea for a project, seeking collaboration, or just want to discuss tech trends? My inbox is always active.</p>
+          
+          <div class="contact-info-list">
+            <div class="c-info-item">
+              <i class="fas fa-envelope"></i>
+              <span>your-email@example.com</span>
+            </div>
+            <div class="c-info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Dhaka, Bangladesh (Remote Available)</span>
+            </div>
+            <div class="c-info-item">
+              <i class="fas fa-bolt"></i>
+              <span>Average response time: &lt; 24 hours</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-area">
+          <form id="contact-form" onsubmit="handleFormSubmit(event)">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" placeholder="John Doe" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" placeholder="john@example.com" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Project Subject</label>
+              <input type="text" id="subject" placeholder="New Website / Collaboration" required>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" rows="5" placeholder="Tell me about your project goals and requirements..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary-gradient btn-full">
+              <span>Send Message</span>
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+
+          <div id="form-toast" class="form-toast">
+            <i class="fas fa-check-circle"></i>
+            <span>Message sent successfully! I will get back to you soon.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <p class="footer-copy">&copy; 2026 Sanchita Roy. Crafted with precision &amp; hosted on GitHub Pages.</p>
+      <div class="footer-links">
+        <a href="#hero">Back to Top <i class="fas fa-arrow-up"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
